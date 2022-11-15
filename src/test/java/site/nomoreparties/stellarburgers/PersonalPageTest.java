@@ -12,6 +12,7 @@ import site.nomoreparties.stellarburgers.pages.PersonalAccountPage;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.Assert.assertEquals;
+import static site.nomoreparties.stellarburgers.constant.Urls.URL_MAIN_PAGE;
 
 public class PersonalPageTest extends BaseUiTest {
     private MainPage mainPage;
@@ -21,7 +22,7 @@ public class PersonalPageTest extends BaseUiTest {
 
     @Before
     public void openPage() {
-        open("https://stellarburgers.nomoreparties.site/");
+        open(URL_MAIN_PAGE);
         mainPage = new MainPage();
         loginPage = new LoginPage();
         personalAccountPage = new PersonalAccountPage();
@@ -47,7 +48,7 @@ public class PersonalPageTest extends BaseUiTest {
     @Test
     @DisplayName("Переход по клику на Конструктов")
     @Description("Переход на главную страницу по клику на Конструктор")
-    public void clickOnCnstructorTest() {
+    public void clickOnConstructorTest() {
         mainPage.clickPersonalPageButton();
         personalAccountPage.clickConstructorLink();
         assertEquals("Соберите бургер", mainPage.getTitleCollectBurger());

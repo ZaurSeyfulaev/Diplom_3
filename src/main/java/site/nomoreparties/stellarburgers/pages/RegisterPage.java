@@ -13,7 +13,7 @@ public class RegisterPage extends BasePage {
 
     private SelenideElement loginLink = $(byXpath(".//a[text()='Войти']"));
 
-    public void clickergisterButton() {
+    public void clickRegisterButton() {
         registerButton.click();
     }
 
@@ -21,7 +21,7 @@ public class RegisterPage extends BasePage {
         setName(name);
         setEmail(email);
         setPassword(password);
-        clickergisterButton();
+        clickRegisterButton();
     }
 
 

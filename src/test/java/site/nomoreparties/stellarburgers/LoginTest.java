@@ -10,6 +10,7 @@ import site.nomoreparties.stellarburgers.pages.*;
 
 import static com.codeborne.selenide.Selenide.open;
 import static org.junit.Assert.assertEquals;
+import static site.nomoreparties.stellarburgers.constant.Urls.*;
 
 public class LoginTest extends BaseUiTest {
     private RegisterPage registerPage;
@@ -20,7 +21,7 @@ public class LoginTest extends BaseUiTest {
 
     @Before
     public void openPage() {
-        open("https://stellarburgers.nomoreparties.site/register");
+        open(URL_REGISTER_PAGE);
         registerPage = new RegisterPage();
         loginPage = new LoginPage();
     }
@@ -35,7 +36,7 @@ public class LoginTest extends BaseUiTest {
     @DisplayName("Вход в систему")
     @Description("Вход в систему с использованием кнопки Войти в акаунт")
     public void loginUsingSignInButtonTest() {
-        open("https://stellarburgers.nomoreparties.site");
+        open(URL_MAIN_PAGE);
         mainPage = new MainPage();
         personalAccountPage = new PersonalAccountPage();
         mainPage.clickSignInButton();
@@ -48,7 +49,7 @@ public class LoginTest extends BaseUiTest {
     @DisplayName("Вход в систему")
     @Description("Вход в систему по кнопке Личный кабинет")
     public void loginUsingPersonalPageButtonTest() {
-        open("https://stellarburgers.nomoreparties.site");
+        open(URL_MAIN_PAGE);
         mainPage = new MainPage();
         personalAccountPage = new PersonalAccountPage();
         mainPage.clickPersonalPageButton();
@@ -61,7 +62,7 @@ public class LoginTest extends BaseUiTest {
     @DisplayName("Вход в систему")
     @Description("Вход в систему с использованием ссылки Вход на странице регистрации")
     public void loginUsingLoginLinkOnRegisterPageTest() {
-        open("https://stellarburgers.nomoreparties.site/register");
+        open(URL_REGISTER_PAGE);
         loginPage = new LoginPage();
         personalAccountPage = new PersonalAccountPage();
         registerPage.clickLoginLink();
@@ -74,7 +75,7 @@ public class LoginTest extends BaseUiTest {
     @DisplayName("Вход в систему")
     @Description("Вход в систему со страницы восстановления пароля")
     public void loginUserfromPasswordRecoveyPageTest() {
-        open("https://stellarburgers.nomoreparties.site/forgot-password");
+        open(URL_FORGOT_PASSWORD_PAGE);
         personalAccountPage = new PersonalAccountPage();
         forgotPasswordPage = new ForgotPasswordPage();
         forgotPasswordPage.clickLoginLink();

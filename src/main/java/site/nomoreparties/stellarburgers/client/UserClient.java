@@ -9,6 +9,7 @@ public class UserClient extends RestClient {
 
     private static final String USER_CREATE = "auth/register";
     private static final String USER_EDIT = "auth/user";
+    private static final String USER_LOGIN = "auth/login";
 
     public ValidatableResponse createUser(UserRequest request) {
         return given()
@@ -20,7 +21,14 @@ public class UserClient extends RestClient {
                 .then();
 
     }
+    public ValidatableResponse userLogin(UserRequest request) {
+        return given()
+                .spec(getDefaultRequestSpec())
+                .body(request)
+                .post(USER_LOGIN)
+                .then();
 
+    }
 
     public ValidatableResponse deleteUser(String token) {
         return given()

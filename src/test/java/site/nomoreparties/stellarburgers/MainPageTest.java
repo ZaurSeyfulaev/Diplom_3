@@ -9,14 +9,15 @@ import org.junit.Test;
 import site.nomoreparties.stellarburgers.pages.MainPage;
 
 import static com.codeborne.selenide.Selenide.open;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
+import static site.nomoreparties.stellarburgers.constant.Urls.URL_MAIN_PAGE;
 
 public class MainPageTest {
     private MainPage mainPage;
 
     @Before
     public void openPage() {
-        open("https://stellarburgers.nomoreparties.site");
+        open(URL_MAIN_PAGE);
     }
 
     @After
@@ -30,9 +31,9 @@ public class MainPageTest {
     public void bunSelectedSectionShodBeDisplayedTest() {
         mainPage = new MainPage();
         mainPage.clickFillingsMenuSection();
-        assertEquals(false, mainPage.checkSelectedButSection());
+        assertFalse(mainPage.checkSelectedButSection());
         mainPage.clickBunMenuSection();
-        assertEquals(true, mainPage.checkSelectedButSection());
+        assertTrue(mainPage.checkSelectedButSection());
     }
 
     @Test
@@ -40,9 +41,9 @@ public class MainPageTest {
     @Description("Проверка перехода к секции Соусы при выборе")
     public void saucesSelectedSectionShodBeDisplayedTest() {
         mainPage = new MainPage();
-        assertEquals(false, mainPage.checkSelectedSaucesSection());
+        assertFalse(mainPage.checkSelectedSaucesSection());
         mainPage.clickSaucesMenuSection();
-        assertEquals(true, mainPage.checkSelectedSaucesSection());
+        assertTrue(mainPage.checkSelectedSaucesSection());
     }
 
     @Test
@@ -50,8 +51,8 @@ public class MainPageTest {
     @Description("Проверка перехода к секции Начинки при выборе")
     public void fillingSelectedSectionShodBeDisplayedTest() {
         mainPage = new MainPage();
-        assertEquals(false, mainPage.checkSelectedFillingSection());
+        assertFalse(mainPage.checkSelectedFillingSection());
         mainPage.clickFillingsMenuSection();
-        assertEquals(true, mainPage.checkSelectedFillingSection());
+        assertTrue(mainPage.checkSelectedFillingSection());
     }
 }

@@ -4,11 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2e7b28c-24f8-4110-b6aa-7dc8097b8bcf" name="Changes" comment="" />
+    <list default="true" id="e2e7b28c-24f8-4110-b6aa-7dc8097b8bcf" name="Changes" comment="Третье задание дипломного проекта и allure отчет">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/nomoreparties/stellarburgers/constant/Urls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/site/nomoreparties/stellarburgers/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/nomoreparties/stellarburgers/client/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/site/nomoreparties/stellarburgers/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/nomoreparties/stellarburgers/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/site/nomoreparties/stellarburgers/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/nomoreparties/stellarburgers/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/PersonalPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/PersonalPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/RegisterNewUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/site/nomoreparties/stellarburgers/RegisterNewUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/08ce894f-3bb2-4ceb-96a4-ac67a2da3e75-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/117f2a60-5ec1-47b1-803f-35fcbd6c738e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2b9a1cde-b024-4ad1-a313-d25e526d52b5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4016d245-6da0-46fa-89b8-91549e74389e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/56d63fb7-5891-4bbf-a20f-0794377fcf0b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5c6f56ef-bf9b-4137-98f8-6f674561ceb2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/613df001-0ee6-4cf4-9c08-cb5f46b89ea3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6ffa78e3-25a0-45a6-9a3a-79aae605aaf3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7893e7cc-ee50-42a9-869d-aefa501c11eb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/bf56257e-a561-45d9-9be8-aa5c8ac9674f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c3f7d19c-c64b-48b2-ad15-468549695db1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cf850dba-c662-41c8-8fbc-859a9f4d81dc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/fd32261f-9938-452c-ae59-419da2b91a56-result.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HVE2BG6Pe8RHYVE5if9Zm92M3h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +59,100 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/zaursejfulaev/Documents/praktikum/Diplom/Diplom_3"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.site.nomoreparties.stellarburgers in Diplom_3">
+    <configuration name="LoginTest.loginUsingLoginLinkOnRegisterPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.nomoreparties.stellarburgers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.nomoreparties.stellarburgers" />
+      <option name="MAIN_CLASS_NAME" value="site.nomoreparties.stellarburgers.LoginTest" />
+      <option name="METHOD_NAME" value="loginUsingLoginLinkOnRegisterPageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.fillingSelectedSectionShodBeDisplayedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.nomoreparties.stellarburgers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.nomoreparties.stellarburgers" />
+      <option name="MAIN_CLASS_NAME" value="site.nomoreparties.stellarburgers.MainPageTest" />
+      <option name="METHOD_NAME" value="fillingSelectedSectionShodBeDisplayedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterNewUserTest.shouldBeInvalidPasswordMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.nomoreparties.stellarburgers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.nomoreparties.stellarburgers" />
+      <option name="MAIN_CLASS_NAME" value="site.nomoreparties.stellarburgers.RegisterNewUserTest" />
+      <option name="METHOD_NAME" value="shouldBeInvalidPasswordMessageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterNewUserTest.userShouldBeRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.nomoreparties.stellarburgers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.nomoreparties.stellarburgers" />
+      <option name="MAIN_CLASS_NAME" value="site.nomoreparties.stellarburgers.RegisterNewUserTest" />
+      <option name="METHOD_NAME" value="userShouldBeRegisterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="site.nomoreparties.stellarburgers in Diplom_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.nomoreparties.stellarburgers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.nomoreparties.stellarburgers" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.site.nomoreparties.stellarburgers in Diplom_3" />
+        <item itemvalue="JUnit.MainPageTest.fillingSelectedSectionShodBeDisplayedTest" />
+        <item itemvalue="JUnit.LoginTest.loginUsingLoginLinkOnRegisterPageTest" />
+        <item itemvalue="JUnit.RegisterNewUserTest.userShouldBeRegisterTest" />
+        <item itemvalue="JUnit.RegisterNewUserTest.shouldBeInvalidPasswordMessageTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,6 +162,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668361640146</updated>
     </task>
+    <task id="LOCAL-00001" summary="Третье задание дипломного проекта и allure отчет">
+      <created>1668362566235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668362566236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -43,5 +182,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Третье задание дипломного проекта и allure отчет" />
+    <option name="LAST_COMMIT_MESSAGE" value="Третье задание дипломного проекта и allure отчет" />
   </component>
 </project>
